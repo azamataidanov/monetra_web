@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monetra — Your money. Your control.</title>
+    <meta
+      name="description"
+      content="Monetra helps you track expenses, income, budgets and goals — with multi-account support, widgets, voice add, and optional Premium AI insights."
+    />
+    <meta property="og:title" content="Monetra — Your money. Your control." />
+    <meta
+      property="og:description"
+      content="Track spending across accounts. Budgets, voice entry, home widget, and Premium AI coaching."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Sora:wght@400;550;650&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="siteHeader">
+      <div class="wrap nav">
+        <a class="brand" href="./">
+          <img src="assets/icon.png" alt="" width="36" height="36" />
+          <span>Monetra</span>
+        </a>
+        <div class="nav-actions">
+          <div class="lang" role="group" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+            <button type="button" data-lang="kk" aria-pressed="false">KK</button>
+          </div>
+          <a
+            class="btn btn-primary"
+            data-i18n="navCta"
+            href="https://play.google.com/store/apps/details?id=com.monetra.monetra"
+            target="_blank"
+            rel="noopener"
+            >Get on Play</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <h1 class="hero-brand">Monetra</h1>
+            <p class="hero-lead" data-i18n="heroLead">
+              Track expenses and income across every account — budgets, goals,
+              a home widget, and voice entry when you need speed.
+            </p>
+            <div class="cta-row">
+              <a
+                class="play-badge"
+                href="https://play.google.com/store/apps/details?id=com.monetra.monetra"
+                target="_blank"
+                rel="noopener"
+                aria-label="Get Monetra on Google Play"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="#34A853"
+                    d="M3.6 2.4 13.7 12 3.6 21.6c-.5-.3-.9-1-.9-1.7V4.1c0-.7.4-1.4.9-1.7z"
+                  />
+                  <path
+                    fill="#FBBC04"
+                    d="m13.7 12 2.7-2.6 4.3 2.5c.7.4.7 1.5 0 1.9l-4.3 2.5z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M13.7 12 3.6 2.4c.3-.2.7-.3 1.1-.1l11.7 6.8z"
+                  />
+                  <path
+                    fill="#4285F4"
+                    d="m13.7 12 2.7 2.6-11.7 6.8c-.4.2-.8.1-1.1-.1z"
+                  />
+                </svg>
+                <span>
+                  <small data-i18n="getItOn">GET IT ON</small>
+                  <strong>Google Play</strong>
+                </span>
+              </a>
+              <a class="btn btn-ghost" href="#features" data-i18n="seeFeatures"
+                >See features</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="phone">
+              <div class="phone-screen">
+                <div class="phone-top">
+                  <span>Monetra</span>
+                  <span>⋯</span>
+                </div>
+                <div class="balance-label" data-i18n="demoBalance">
+                  Total balance
+                </div>
+                <div class="balance">₸ 482 400</div>
+                <div class="chips">
+                  <div class="chip">
+                    <span data-i18n="demoMonth">This month</span>
+                    <strong>− 64 200</strong>
+                  </div>
+                  <div class="chip">
+                    <span data-i18n="demoBudget">Budget</span>
+                    <strong>68%</strong>
+                  </div>
+                </div>
+                <div class="rows">
+                  <div class="row">
+                    <div class="dot">🛒</div>
+                    <div>
+                      <strong data-i18n="demoGrocery">Groceries</strong>
+                      <small data-i18n="demoToday">Today</small>
+                    </div>
+                    <div class="amount out">− 8 900</div>
+                  </div>
+                  <div class="row">
+                    <div class="dot">🚕</div>
+                    <div>
+                      <strong data-i18n="demoTaxi">Transport</strong>
+                      <small data-i18n="demoYday">Yesterday</small>
+                    </div>
+                    <div class="amount out">− 1 200</div>
+                  </div>
+                  <div class="row">
+                    <div class="dot">💼</div>
+                    <div>
+                      <strong data-i18n="demoSalary">Salary</strong>
+                      <small data-i18n="demoWeek">This week</small>
+                    </div>
+                    <div class="amount in">+ 350 000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="wrap">
+          <h2 data-i18n="featuresTitle">Built for real money habits</h2>
+          <p class="sub" data-i18n="featuresSub">
+            One calm place for cash, cards, and savings — without spreadsheet
+            chaos.
+          </p>
+          <div class="feature-list">
+            <article class="feature">
+              <div class="mark">◎</div>
+              <h3 data-i18n="f1Title">Multiple accounts</h3>
+              <p data-i18n="f1Body">
+                Keep cash, bank, and savings balances together with a clear
+                monthly picture.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="mark">⌘</div>
+              <h3 data-i18n="f2Title">Widget + voice</h3>
+              <p data-i18n="f2Body">
+                Add expense or income from your home screen. Premium voice entry
+                when your hands are full.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="mark">✦</div>
+              <h3 data-i18n="f3Title">Budgets & AI tips</h3>
+              <p data-i18n="f3Body">
+                Category budgets, recurring costs, and optional Premium AI
+                coaching from your own data.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2 data-i18n="ctaTitle">Start tracking in minutes</h2>
+            <p data-i18n="ctaBody">
+              Available on Google Play. EN · RU · KK. Works offline-first.
+            </p>
+          </div>
+          <a
+            class="btn btn-primary"
+            href="https://play.google.com/store/apps/details?id=com.monetra.monetra"
+            target="_blank"
+            rel="noopener"
+            data-i18n="ctaButton"
+            >Open on Google Play</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <div>© <span id="year"></span> Monetra</div>
+        <div class="footer-links">
+          <a href="privacy.html" data-i18n="privacy">Privacy</a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.monetra.monetra"
+            target="_blank"
+            rel="noopener"
+            >Google Play</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
